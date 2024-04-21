@@ -38,8 +38,22 @@ class Story:
 # Here's a story to get you started
 
 
-story = Story(
+# Existing story as example
+story1 = Story(
     ["place", "noun", "verb", "adjective", "plural_noun"],
     """Once upon a time in a long-ago {place}, there lived a
        large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
+
+# Adding a new story
+story2 = Story(
+    ["animal", "verb", "temperature", "sound", "food"],
+    """The {animal} liked to {verb} when it was {temperature}. 
+       It made a {sound} sound whenever it saw {food}."""
+)
+
+stories = {
+    'Adventure': story1,
+    'Animal Fun': story2
+}
+
